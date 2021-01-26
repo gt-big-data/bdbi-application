@@ -3,19 +3,12 @@ import './App.css';
 import {Box, Image, Flex, Link, Heading }from '@chakra-ui/react'
 import { ChakraProvider } from "@chakra-ui/react"
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption } from "@chakra-ui/react"
-import DataVizTable from './DataVizTable'
-import MainPage from './MainPage'
-import Blob from './blob.svg'
-import Logo from './bdbi.png'
-function App() {
-  return(
-    <>
-      <MainPage />
 
 
-    </>
+function DataVizTable() {
 
-  );          
+
+
 }
 
-export default App;
+export default DataVizTable;
