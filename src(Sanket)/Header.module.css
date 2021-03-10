@@ -1,0 +1,78 @@
+.headLinks {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 629px; 
+    height: 38px;
+    left: 1173px; 
+    position: absolute;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 46px;
+    color: #AAA9A9;
+   
+}
+
+.headContainer {
+    position: absolute;
+    width: 2173px;
+    height: 182px;
+    left: -52px;
+    top: 0px;
+    background: #FFFFFF;
+    align-items: center;
+}
+
+.applyBox {
+    position: absolute;
+    width: 174px;
+    height: 74px;
+    left: 1900px;
+    top: 48px;
+    background: #44A6DE;
+    border-radius: 100px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoBox {
+    position: absolute;
+    width: 135px;
+    height: 93px;
+    left: 60px;
+    top: 42px;
+    background: url('./image1.png');
+}
+
+.logoWords {
+    position: absolute;
+    width: 436px;
+    height: 113px;
+    left: 207px;
+    top: 36px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FF914C;
+}
+
+.aboutText:hover {
+    text-decoration: underline;
+}
+
+.projectsText:hover {
+    text-decoration: underline;
+}
+
+.eventsText:hover {
+    text-decoration: underline;
+}

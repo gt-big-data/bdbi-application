@@ -1,0 +1,35 @@
+.container {
+    position: absolute;
+    width: 2152px;
+    height: 1497.39px;
+    left: -31px;
+    top: 179px;
+    background: rgba(234, 247, 255, 0.99);
+    transform: rotate(180deg);
+}
+
+.container svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 145px;
+    margin-bottom: 0px;
+}
+
+.shapefill {
+    fill: #FFFFFF;
+}
+
+.textcontainer {
+    position: absolute;
+    width: 852px;
+    height: 785px;
+    left: 222px;
+    top: 565px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 132px;
+    color: #108DD2; 
+}
