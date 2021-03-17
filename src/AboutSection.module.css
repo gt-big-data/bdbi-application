@@ -2,8 +2,6 @@
   position: absolute;
   width: 100vw;
   height: 80vh;
-  top: 10vh;
-  background: rgba(234, 247, 255, 0.99);
 }
 
 .shapefill {
@@ -13,7 +11,7 @@
 .textcontainer {
   padding-left: 3%;
   margin-right: 60%;
-  padding-top: 20%;
+  padding-top: 5%;
 }
 
 .divider {

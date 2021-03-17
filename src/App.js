@@ -7,13 +7,14 @@ import Projects from './Projects'
 import About from './About'
 import Sponsors from './Sponsors.js'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import LandingPage from './LandingPage';
 function App() {
   return (
     <Router>
     <div className="App">
         <Header/>
         <Switch>
-          <Route path="/" exact component={SecondComp}/>
+          <Route path="/" exact component={LandingPage}/>
           <Route path="/about" component={About}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/events" component={Events}/>
