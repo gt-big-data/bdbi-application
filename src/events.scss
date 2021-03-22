@@ -1,0 +1,23 @@
+.calendar-container {
+  position: absolute;
+  height: 50% !important;
+  width: 50%;
+  left: 25%;
+  top: 3300px;
+}
+.rbc-calendar {
+  height: 50vh !important;
+}
+
+.events {
+  position: absolute;
+  width: 50%;
+  left: 33%;
+  height: 70px;
+  top: 3114px;
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(75px + 2vmin);
+  color: #0A5A86;
+}
