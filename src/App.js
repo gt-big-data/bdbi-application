@@ -6,6 +6,7 @@ import Events from './Events';
 import Projects from './Projects'
 import About from './About'
 import Sponsors from './Sponsors.js'
+import Contact from './Contact.js'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import LandingPage from './LandingPage';
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/events" component={Events}/>
         </Switch>
         <Sponsors/>
+        <Contact/>
     </div>
     </Router>
   );

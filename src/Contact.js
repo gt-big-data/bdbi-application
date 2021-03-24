@@ -5,7 +5,46 @@ import insta from './instagram.png'
 import link from './linkedin.png'
 import fb from './facebook.png'
 import slack from './slack.png'
+import axios from 'axios'
+import qs from 'qs'
 function Contact() {
+    const [name, setName] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+    const submitEmailForm = (e) => {
+        e.preventDefault();
+        axios.post('http://localhost:5000/api/send', null, { params: {
+            name: name,
+            subject: subject,
+            message: message
+          }}).then((response) => {
+          if (response.data.status === 'success') {
+              alert("Message Sent."); 
+              resetForm();
+          } else if (response.data.status === 'fail') {
+              alert("Message failed to send.");
+          }
+        })
+    }
+
+    const resetForm = () => {
+        setName('');
+        setSubject('');
+        setMessage('');
+    }
+
+    const nameTracker = (e) => {
+        setName(e.target.value);
+    }
+
+    const subjectTracker = (e) => {
+        setSubject(e.target.value);
+    }
+
+    const messageTracker = (e) => {
+        setMessage(e.target.value);
+    }
 
     return(
         <div className={cont.container}>
@@ -18,15 +57,20 @@ function Contact() {
                 <div className={cont.contactTitle}>
                     Contact Us
                 </div>
-                <form>
+                <form onSubmit={submitEmailForm}>
                     <label>
-                        <input type="text" className={cont.nameField} placeholder="Name"></input>
+                        <input type="text" value={name} className={cont.nameField} placeholder="Name" onChange={nameTracker}></input>
                     </label>
                         <label>
-                            <input type="text" className={cont.emailField} placeholder="Email"></input>
+                            <input type="text" value={subject} className={cont.emailField} placeholder="Subject" onChange={subjectTracker}></input>
                         </label>
                     <label>
-                        <textarea type="text" className={cont.messageField} placeholder="Message"></textarea>
+                        <textarea type="text" value={message} className={cont.messageField} placeholder="Message" onChange={messageTracker}></textarea>
+                    </label>
+                    <label>
+                        <button className={cont.buttonField}>
+                            Send Email
+                        </button>
                     </label>
                 </form>
             </div>
