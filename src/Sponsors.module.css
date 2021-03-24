@@ -6,16 +6,13 @@
   margin-top: 4000px;
   margin-left: auto;
   margin-right: auto;
-  width: 2000px;
-  height: 5000px;
-  font-family: Red Hat Display;
+  width: 100vw;
+  height: 100vh;
   font-style: normal;
   font-weight: normal;
   font-size: 100px;
   line-height: 132px;
-  color: #0A5A86;
+  color: #0a5a86;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
-
-

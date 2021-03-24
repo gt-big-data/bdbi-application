@@ -1,19 +1,27 @@
 import { Grid, Flex, Box, Text, Button, VStack, Image, HStack} from "@chakra-ui/react"
 import headStyle from './Header.module.css'
 import {Link} from 'react-router-dom';
+import logo from './image1.png'
 function Header() {
     return (
       <Flex className={headStyle.headContainer} as="nav" justify="space-between">
          <Flex className={headStyle.logoWords}>
-          <Image src="image1.png"/>
-
-     
-          <VStack 
-          align="left">
-            <Box>Big Data</Box>
-            <Box  color="#44A6DE">Big Impact</Box>
-          </VStack>
+         <Link to="/"> 
         
+          <HStack spacing="24px">
+            <Image src={logo}/>
+
+                
+            <VStack 
+            align="left">
+              <Box>Big Data</Box>
+              <Box  color="#44A6DE">Big Impact</Box>
+            </VStack>
+
+
+          </HStack>
+     
+          </Link>
         </Flex>
         <Flex marginRight="2%" >
 
