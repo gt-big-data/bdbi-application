@@ -7,10 +7,14 @@ import DataVizTable from './DataVizTable'
 import MainPage from './MainPage'
 import Blob from './blob.svg'
 import Logo from './bdbi.png'
+import BDBICalendar from './MyCalendar'
+
 function App() {
   return(
     <>
       <MainPage />
+      
+      <BDBICalendar/>
 
 
     </>
