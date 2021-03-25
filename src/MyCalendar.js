@@ -3,7 +3,7 @@ import Calendar from "react_google_calendar"
 import './events.scss'
 
 const calendar_configuration = {
-    api_key: 'AIzaSyDFxU-YHy8b1p5quKxjaB_UTWW0Hu6PgNE',
+    api_key: '',
     calendars: [
       {
         name: 'demo',
