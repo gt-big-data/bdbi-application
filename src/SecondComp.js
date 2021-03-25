@@ -4,7 +4,7 @@ import secondStyles from './SecondComp.module.css'
 function SecondComp() {
     return (
         <Box position="absolute" className={secondStyles.container} >
-            <HStack paddingTop="10%" spacing="10rem">
+            <HStack paddingTop="7%" spacing="10rem">
           
             <Box  className={secondStyles.textcontainer} align="left" color="#108dd2">
                     <Text fontWeight="bold" fontSize="3rem">Building Data</Text>

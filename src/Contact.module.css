@@ -1,190 +1,190 @@
 .container {
-    position: absolute;
-    width: 2201px;
-    height: 1385px;
-    left: 0px;
-    top: 6731px;
-    background: rgba(234, 247, 255, 0.99);
-    /*transform: matrix(1, 0, 0, -1, 0, 0)*/;
+  position: absolute;
+  width: 2201px;
+  height: 1385px;
+  left: 0px;
+  top: 6731px;
+  background: rgba(234, 247, 255, 0.99);
+  /*transform: matrix(1, 0, 0, -1, 0, 0)*/
 }
 
 .inputContain {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    height: 700px;
-    margin-top: 200px;
-    margin-left: 300px;
-    width: 700px;
-    gap: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  margin-top: 200px;
+  margin-left: 300px;
+  width: 700px;
+  gap: 20px;
 }
 
 .contactTitle {
-    /*position: absolute;*/
-    width: 497px;
-    height: 132px;
-    font-family: Red Hat Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
-    line-height: 132px;
-    color: #0A5A86;
-    margin-bottom: 20px;
+  /*position: absolute;*/
+  width: 497px;
+  height: 132px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 132px;
+  color: #0a5a86;
+  margin-bottom: 20px;
 }
 
 .nameField {
-    width: 605px;
-    height: 65px;
-    background: #FFFFFF;
-    border: 1px solid #DBDBDB;
-    box-sizing: border-box;
-    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;   
-    font-size: 32px;  
+  width: 605px;
+  height: 65px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 32px;
 }
 
 .emailField {
-    width: 605px;
-    height: 65px;
-    background: #FFFFFF;
-    border: 1px solid #DBDBDB;
-    box-sizing: border-box;
-    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;   
-    font-size: 32px; 
+  width: 605px;
+  height: 65px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 32px;
 }
 
 .messageField {
-    width: 605px;
-    height: 250px;
-    background: #FFFFFF;
-    border: 1px solid #DBDBDB;
-    box-sizing: border-box;
-    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;    
-    font-size: 32px;
+  width: 605px;
+  height: 250px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 32px;
 }
 
-label, input {
-    display: block;
+label,
+input {
+  display: block;
 }
 
-label, textarea {
-    display: block;
+label,
+textarea {
+  display: block;
 }
 
 label {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .emailField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .nameField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .emailField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .messageField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .mediaContain {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    height: 650px;
-    margin-top: 200px;
-    margin-left: 1343px;
-    width: 558px;
-    gap: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  margin-top: 200px;
+  margin-left: 1343px;
+  width: 558px;
+  gap: 20px;
 }
 
 .mediaTitle {
-    /*position: absolute;*/
-    width: 497px;
-    height: 132px;
-    font-family: Red Hat Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
-    line-height: 132px;
-    color: #0A5A86;
-    margin-bottom: 20px;
-    white-space: nowrap
+  /*position: absolute;*/
+  width: 497px;
+  height: 132px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 132px;
+  color: #0a5a86;
+  margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 70px;
 }
 
 .gridItem1 {
-    display:flex;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 .gridItem2 {
-    display:flex;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-content: center;
+  align-items: center;
 }
 
 .gridItem3 {
-    display:flex;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 .gridItem4 {
-    display:flex;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-content: center;
+  align-items: center;
 }
 
 .bottomLine {
-    width: 1800px;
-    height: 2px;
-    background-color: #108DD2;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1000px;
+  width: 1800px;
+  height: 2px;
+  background-color: #108dd2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1000px;
 }
 
 .custom-shape-divider-top-1615768898 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1615768898 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
 }
 
 .shapeFill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }

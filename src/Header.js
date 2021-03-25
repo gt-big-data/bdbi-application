@@ -5,10 +5,10 @@ import logo from './image1.png'
 function Header() {
     return (
       <Flex className={headStyle.headContainer} as="nav" justify="space-between">
-         <Flex className={headStyle.logoWords}>
+         <Flex marginLeft="2%" className={headStyle.logoWords}>
          <Link to="/"> 
         
-          <HStack spacing="24px">
+          <HStack  paddingTop="3%" spacing="24px">
             <Image src={logo}/>
 
                 

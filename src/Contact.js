@@ -80,16 +80,16 @@ function Contact() {
                 </div>
                 <div className={cont.grid}>
                     <div className={cont.gridItem1}>
-                        <img src={insta}></img>
+                        {/* <img src={insta}></img> */}
                     </div>
                     <div className={cont.gridItem2}>
-                        <img src={link}></img>
+                        {/* <img src={link}></img> */}
                     </div>
                     <div className={cont.gridItem3}>
-                        <img src={fb}></img>
+                        {/* <img src={fb}></img> */}
                     </div>
                     <div className={cont.gridItem4}>
-                        <img src={slack}></img>
+                        {/* <img src={slack}></img> */}
                     </div>
                 </div>
             </div>
