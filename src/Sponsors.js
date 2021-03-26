@@ -5,29 +5,25 @@ import nvid from './nvidia.png';
 import ncr from './ncr.png';
 import mule from './mulesoft.png';
 import hub from './hubspot.png'
+import { Text, Box, Image, SimpleGrid} from "@chakra-ui/react"
 function Sponsors() {
     return(
         <div className = {spons.Sponsors}>
-            <h1>Sponsors</h1>
-                <div className={logo.logoContain}>
-                    <div className={logo.logo}>
-                        <div className={logo.gridItem}>
-                            <img src={mic}></img>
-                        </div>
-                        <div className={logo.gridItem2}>
-                            <img src={ncr}></img>
-                        </div>
-                        <div class={logo.gridItem3}>
-                            <img src={nvid}></img>
-                        </div>
-                        <div class={logo.gridItem4}>
-                            <img src={mule}></img>
-                        </div>
-                        <div class={logo.gridItem5}>
-                            <img src={hub}></img>
-                        </div>
-                        </div>
-                </div>
+            <Text fontWeight="bold" fontSize="3rem" paddingBottom="10%">Sponsors</Text>
+                <SimpleGrid minChildWidth="2rem" spacing="40px">
+                
+                    <Image  src={mic}></Image>
+
+                
+                    <Image src={ncr}></Image>
+
+                    <Image  src={nvid}></Image>
+
+                    <Image src={mule}></Image>
+
+                    <Image src={hub}></Image>
+
+             </SimpleGrid>
         </div> 
            
 

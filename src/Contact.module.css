@@ -87,12 +87,14 @@
     font-size: 1.2rem; 
 }
 
-label, input {
-    display: block;
+label,
+input {
+  display: block;
 }
 
-label, textarea {
-    display: block;
+label,
+textarea {
+  display: block;
 }
 
 label, button {
@@ -100,27 +102,27 @@ label, button {
 }
 
 label {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .emailField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .nameField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .emailField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .messageField::-webkit-input-placeholder {
-    color: #108DD2;
-    opacity: 1;
+  color: #108dd2;
+  opacity: 1;
 }
 
 .mediaContain {
@@ -156,35 +158,35 @@ label {
 }
 
 .gridItem1 {
-    display:flex;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 .gridItem2 {
-    display:flex;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-content: center;
+  align-items: center;
 }
 
 .gridItem3 {
-    display:flex;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 .gridItem4 {
-    display:flex;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-content: center;
+  align-items: center;
 }
 
 .bottomLine {
@@ -197,21 +199,21 @@ label {
 }
 
 .custom-shape-divider-top-1615768898 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1615768898 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
 }
 
 .shapeFill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }

@@ -1,10 +1,10 @@
 import { Grid, Flex, Box} from "@chakra-ui/react"
 import {useState, useRef, useEffect} from 'react'
 import cont from './Contact.module.css'
-import insta from './instagram.png'
-import link from './linkedin.png'
-import fb from './facebook.png'
-import slack from './slack.png'
+// import insta from './instagram.png'
+// import link from './linkedin.png'
+// import fb from './facebook.png'
+// import slack from './slack.png'
 import axios from 'axios'
 import qs from 'qs'
 function Contact() {
