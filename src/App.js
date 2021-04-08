@@ -20,8 +20,7 @@ function App() {
           <Route path="/projects" component={Projects}/>
           <Route path="/events" component={Events}/>
         </Switch>
-        <Sponsors/>
-        <Contact/>
+
     </div>
     </Router>
   );

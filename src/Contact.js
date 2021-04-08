@@ -85,22 +85,22 @@ function Contact() {
                 <div className={cont.grid}>
                     <div className={cont.gridItem1}>
                         <a href='https://www.instagram.com/'>
-                            <img src={insta}></img>
+                            {/* <img src={insta}></img> */}
                         </a>
                     </div>
                     <div className={cont.gridItem2}>
                         <a href = 'https://www.linkedin.com/home'>
-                            <img src={link}></img>
+                            {/* <img src={link}></img> */}
                         </a>
                     </div>
                     <div className={cont.gridItem3}>
                         <a href='https://www.facebook.com/'>
-                            <img src={fb}></img>
+                            {/* <img src={fb}></img> */}
                         </a>
                     </div>
                     <div className={cont.gridItem4}>
                         <a href = 'https://slack.com'>
-                            <img src={slack}></img>
+                            {/* <img src={slack}></img> */}
                         </a>
                     </div>
                 </div>

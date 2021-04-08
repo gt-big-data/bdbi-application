@@ -11,6 +11,7 @@
   width: 100%;
   background: #ffffff;
   align-items: center;
+  height: 9rem;
 }
 
 .logoBox {
@@ -25,5 +26,5 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 53px;
-  color: #ff914c;
+  color: #44a6de;
 }

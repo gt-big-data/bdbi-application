@@ -1,18 +1,4 @@
-.Sponsors {
-  /* Sponsors */
-
+.container {
   position: absolute;
-  /*border: solid;*/
-  margin-top: 4000px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100vw;
-  height: 100vh;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 100px;
-  line-height: 132px;
-  color: #0a5a86;
-  align-items: center;
-  justify-content: center;
 }

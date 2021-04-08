@@ -3,10 +3,10 @@ import aboutStyles from './AboutSection.module.css'
 import flask from './flask.png'
 function AboutPage() {
     return (
-        <Box marginTop="90vh"  className={aboutStyles.container} > 
+        <Box marginTop="97vh"  className={aboutStyles.container} color="#3a53a2"> 
             
-           <Text align="center" fontWeight="bold" fontSize="3rem"  color="#108dd2" paddingTop="10%">About Us</Text>
-                <Box  className={aboutStyles.textcontainer} color="#108dd2">
+           <Text align="center" fontWeight="bold" fontSize="3rem"   marginTop="6rem">About Us</Text>
+                <Box marginTop="2rem" className={aboutStyles.textcontainer} >
                  
                     <Box >
                     <Text align="left" fontSize="2rem">

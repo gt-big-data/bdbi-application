@@ -4,12 +4,12 @@ import mic from './microsoft.png';
 import nvid from './nvidia.png';
 import ncr from './ncr.png';
 import mule from './mulesoft.png';
-import hub from './hubspot.png'
+import hub from './hubspot.svg'
 import { Text, Box, Image, SimpleGrid} from "@chakra-ui/react"
 function Sponsors() {
     return(
-        <div className = {spons.Sponsors}>
-            <Text fontWeight="bold" fontSize="3rem" paddingBottom="10%">Sponsors</Text>
+        <Box paddingTop="1rem" className = {spons.container} marginTop="268vh">
+            <Text fontWeight="bold" fontSize="3rem" paddingBottom="10%" color="#3a53a2">Sponsors</Text>
                 <SimpleGrid minChildWidth="2rem" spacing="40px">
                 
                     <Image  src={mic}></Image>
@@ -24,7 +24,7 @@ function Sponsors() {
                     <Image src={hub}></Image>
 
              </SimpleGrid>
-        </div> 
+        </Box> 
            
 
 

@@ -1,8 +1,6 @@
 .container {
   position: absolute;
   width: 100vw;
-  height: 80vh;
-  top: 9rem;
   background: rgb(8, 0, 154);
   background: linear-gradient(
     125deg,
@@ -12,17 +10,16 @@
   );
 }
 
-.shapefill {
-  fill: #108dd2;
+.card {
+  width: 100%;
+  background: #e5e5e5;
+  border-radius: 1rem;
+  border-width: 0px;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.textcontainer {
-  margin-left: 5%;
-  margin-right: 3%;
-}
-
-.divider {
-  color: #108dd2;
-  size: 10;
-  width: 50%;
+.cardImage {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
 }
